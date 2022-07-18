@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "oja/oja-related-post-block",
+	"version": "0.1.0",
+	"title": "Oja Related Post Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "関連記事を表示するブロックです",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "oja-related-post-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
