@@ -1,1 +1,74 @@
-.wp-block-oja-oja-related-post-block label{color:#aea1a1!important}.wp-block-oja-oja-related-post-block select{font-size:16px!important;max-width:none}.oja-related-post-wraper a{pointer-events:none}.oja-related-post-wraper a figure{margin:0 0 10px}.related-post-design{width:100%}.related-post-design .components-base-control__field{display:flex;flex-wrap:wrap}.related-post-design .components-base-control__label{flex-basis:100%}.related-post-design .components-radio-control__option{flex-basis:50%;margin-bottom:10%}.related-post-design .components-radio-control__option input{display:none}.related-post-design .components-radio-control__option input[type=radio]:checked+label{background:#1cb4d2;color:#fff}.related-post-design .components-radio-control__option input[type=radio]:checked+label:before{color:#fff}.related-post-design .components-radio-control__option label{border:1px solid #ccc;border-radius:10%;color:#555e64;cursor:pointer;display:block;font-size:12px;margin:0;padding:45px 0 10px;position:relative;text-align:center;width:100%}.related-post-design .components-radio-control__option label:before{display:block;font-family:Font Awesome\ 5 Free;font-size:22px;font-weight:900;left:50%;position:absolute;top:45%;transform:translate(-50%,-70%)}.related-post-design .components-radio-control__option input[value=sinple]+label:before{content:""}.related-post-design .components-radio-control__option input[value=card]+label:before{content:""}
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.wp-block-oja-oja-related-post-block label {
+  color: #aea1a1 !important;
+}
+.wp-block-oja-oja-related-post-block select {
+  max-width: initial;
+  font-size: 16px !important;
+}
+
+.oja-related-post-wraper a {
+  pointer-events: none;
+}
+.oja-related-post-wraper a figure {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.related-post-design {
+  width: 100%;
+}
+.related-post-design .components-base-control__field {
+  display: flex;
+  flex-wrap: wrap;
+}
+.related-post-design .components-base-control__label {
+  flex-basis: 100%;
+}
+.related-post-design .components-radio-control__option {
+  flex-basis: 50%;
+  margin-bottom: 10%;
+}
+.related-post-design .components-radio-control__option input {
+  display: none;
+}
+.related-post-design .components-radio-control__option input[type=radio]:checked + label {
+  background: #1CB4D2;
+  color: #fff;
+}
+.related-post-design .components-radio-control__option input[type=radio]:checked + label:before {
+  color: #fff;
+}
+.related-post-design .components-radio-control__option label {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  margin: 0;
+  padding: 45px 0px 10px;
+  color: #555e64;
+  text-align: center;
+  border: solid 1px #ccc;
+  border-radius: 10%;
+  font-size: 12px;
+  position: relative;
+}
+.related-post-design .components-radio-control__option label:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: block;
+  font-size: 22px;
+  position: absolute;
+  transform: translate(-50%, -70%);
+  left: 50%;
+  top: 45%;
+}
+.related-post-design .components-radio-control__option input[value=sinple] + label:before {
+  content: "\f0ca";
+}
+.related-post-design .components-radio-control__option input[value=card] + label:before {
+  content: "\f815";
+}
+
+/*# sourceMappingURL=index.css.map*/

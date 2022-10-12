@@ -18,8 +18,6 @@ class OjaRelatedPostBlock {
   public function __construct() {
     // ブロック登録
     add_action( 'init', array($this, 'oja_related_block_init'));
-    // アセットファイルの読み込み
-    add_action('enqueue_block_assets', array($this, 'add_oja_swiper_scripts'));
   }
 
   public function oja_related_block_init() {
@@ -86,13 +84,6 @@ class OjaRelatedPostBlock {
     ) );
   }
 
-  //// カスタムスクリプトのファイル群を読み込み
-  public function add_oja_swiper_scripts() {
-    $dir = dirname( __FILE__ );
-    // FontAwesomeの読み込み
-    wp_enqueue_script('fontawesome_js','https://kit.fontawesome.com/fb19e987ff.js');
-    wp_enqueue_style('fontawesome_css','https://use.fontawesome.com/releases/v5.2.0/css/all.css');
-  }
 } // class OjaSliderBlock
 
 //ダイナミックブロックによるレンダリング

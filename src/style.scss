@@ -81,7 +81,7 @@
           font-size: 1em;
           padding-left: 8px;
         }
-        &:before {
+        &:before, &:after {
           content: none;
         }
       }
